@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección con 8 Cuadrados con Imágenes</title>
+    <style>
+
+        p{
+            margin: 0;
+            padding: 0;
+
+        }
+        body {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        } 
+        .square {
+            margin: 0;
+            padding: 0;
+            width: 50px;  /* overflow: hidden sirve para que todo lo que sobresalga se esconda*/
+        }
+        .tipoFuego{
+            background-color: rgb(236, 138, 9);
+        }
+        .tipoSiniestro{
+            background-color: rgb(88, 79, 79);
+        }
+        .tipoPlanta{
+            background-color: rgb(88, 231, 22);
+        }
+        .tipoPsiquico{
+            background-color: rgb(238, 13, 189);
+        }
+        .tipoTierra{
+            background-color: rgb(243, 220, 9);
+        }
+        .tipoAgua{
+            background-color: rgb(20, 240, 192);
+        }
+        .tipoVeneno{
+            background-color: rgb(192, 4, 250);
+        }
+        .tipoDragon{
+            background-color: rgb(21, 53, 235);
+        }
+
+        img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    
+        <div class="square tipoFuego">
+            <p>Ninetales</p>
+            <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/98/latest/20230613015530/Ninetales.png/200px-Ninetales.png" alt="Imagen 1">
+        </div>
+        <div class="square tipoSiniestro">
+            <p>Zorua</p>
+            <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/ff/latest/20200825140315/Zorua.png/200px-Zorua.png" alt="Imagen 2">
+        </div>
+        <div class="square tipoPlanta">
+            <p>Shaymin</p>
+            <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20150601121800/Shaymin_tierra.png/200px-Shaymin_tierra.png" alt="Imagen 3">
+        </div>
+        <div class="square tipoPsiquico">
+            <p>Meloetta</p>
+            <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9f/latest/20150227053804/Meloetta_l%C3%ADrica.png/200px-Meloetta_l%C3%ADrica.png" alt="Imagen 4">
+        </div>
+        <div class="square tipoTierra">
+            <p>Sandile</p>
+            <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e0/latest/20191128023840/Sandile.png/200px-Sandile.png" alt="Imagen 5">
+        </div>
+        <div class="square tipoAgua">
+            <p>Suicune</p>
+            <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c3/latest/20141113215227/Suicune.png/200px-Suicune.png" alt="Imagen 6">
+        </div>
+        <div class="square tipoVeneno">
+            <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/44/latest/20220803140005/Wooper_de_Paldea.png/200px-Wooper_de_Paldea.png" alt="Imagen 7">
+        </div>
+        <div class="square tipoDragon">
+            <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/2/24/latest/20141102005820/Altaria.png/200px-Altaria.png" alt="Imagen 8">
+        </div>
+    </div>
+</body>
+</html>
