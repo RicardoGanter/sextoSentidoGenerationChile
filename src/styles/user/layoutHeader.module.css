@@ -1,0 +1,46 @@
+.header{
+    background-color: #2E4C96;
+    padding: .6rem;
+    display: flex;
+    justify-content: end;
+}
+.button{
+    background-color: #26643F;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lateral{
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 51px);
+}
+
+.containLeftOptions{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    width: fit-content;
+    background-color: #213567;
+    padding: 1rem;   
+}
+.contanOption{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 2rem 1rem; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.705);
+}
+
+.contanOption p{
+    font-size: 16px;
+    margin: 0;
+    color: white;
+}
+
+
+
+.contanOption img{
+    width: 2.3rem;
+}
