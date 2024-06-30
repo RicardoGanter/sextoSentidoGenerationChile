@@ -1,0 +1,20 @@
+.containCenterInfoHigiene{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.infoImage{
+    width: calc(100% - 2rem);
+    margin-top: 1rem;
+    height: 75vh;
+}
+.dataInfoImage{
+    background-color: #d9d9d95c; 
+    padding: .5rem 2rem;
+    margin: 0; 
+    width: calc(100% - 2rem);
+    color: white;
+    font-size: 18px;
+} 

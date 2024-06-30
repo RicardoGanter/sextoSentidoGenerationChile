@@ -1,7 +1,10 @@
 body{ 
     margin: 0;
     padding: 0; 
-    background: linear-gradient(to right, #21412e, #2b7549, #21412e);
+    background: #2B6643;
+}
+*{
+    box-sizing: border-box;
 }
 label, button{
     color: white;
