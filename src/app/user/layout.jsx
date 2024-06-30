@@ -8,7 +8,7 @@ import medicineIcon from '../../img/notes-medical-solid.svg'
 import foodIcon from '../../img/utensils-solid.svg'
 import pillsIcon from '../../img/pills-solid.svg'
 import { Outlet } from "react-router-dom"
-const LayoutHeader = ({ children })=>{
+const LayoutHeader = ()=>{
     return(
         <div>
             <div className={styles.header}> 
@@ -43,8 +43,7 @@ const LayoutHeader = ({ children })=>{
                     </div>
                 </div>
                 {/* Center */}
-                <div>
-                { children }
+                <div> 
                 <Outlet/>
                 </div>
                 {/* Right*/}
