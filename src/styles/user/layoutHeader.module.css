@@ -5,8 +5,7 @@
     justify-content: end;
 }
 .button{
-    background-color: #26643F;
-    border: none;
+    background-color: #26643F; 
     padding: .5rem 1rem;
     border-radius: 5px;
     cursor: pointer;

@@ -42,10 +42,8 @@ const LayoutHeader = ()=>{
                         <img alt="health guide" src={medicineIcon}/>
                     </div>
                 </div>
-                {/* Center */}
-                <div> 
-                <Outlet/>
-                </div>
+                {/* Center */} 
+                <Outlet/> 
                 {/* Right*/}
                 <div className={styles.containRigthInfoUser}> 
                     <div className={styles.subContainInfoUser}>

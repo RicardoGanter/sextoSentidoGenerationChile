@@ -1,0 +1,22 @@
+
+.contain{
+    display: flex;
+    flex-direction: column; 
+} 
+.containCita{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+.green{
+    background-color: green;
+    width: 60px;
+    height: 20px;
+} 
+.buttonVerMas{
+    padding: 1rem 0;
+    background-color: #210B33;
+    font-size: 18px;
+    color: #00FFF0;
+}

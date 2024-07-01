@@ -3,7 +3,7 @@ import styles from '../../../styles/user/home/home.module.css'; // el import la 
 // from es para marcar la ubicacion del archivo
 import infoImage from '../../../img/Screenshot 2024-06-29 205213.png' 
 //aqui pueden ver una mescla de codigo js y html :o
-const User = ()=>{ // se preguntaran porque se crea esta funcion?, es para despues llamar en otro archivo con los import.
+const Home = ()=>{ // se preguntaran porque se crea esta funcion?, es para despues llamar en otro archivo con los import.
     return(
     <div className={styles.containCenterInfoHigiene}>
         <img alt="ImageHigiene" className={styles.infoImage} src={infoImage} />
@@ -17,4 +17,4 @@ const User = ()=>{ // se preguntaran porque se crea esta funcion?, es para despu
     )
 }
 
-export default User;
+export default Home;

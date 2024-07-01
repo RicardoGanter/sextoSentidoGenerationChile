@@ -1,9 +1,9 @@
 import Login from './login/login';
 import '../styles/App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import User from './user/home/home.jsx';
+import Home from './user/home/home.jsx';
 import LayoutHeader from './user/layout';
-
+import History from './user/history/history.jsx';
 function App() {
   return (
     <div className="App"> 
@@ -12,7 +12,8 @@ function App() {
           <Route path='/login' element={<Login/> }/>
           
           <Route element={<LayoutHeader/> }>
-            <Route path='/user/home' element={<User/>}/>
+            <Route path='/user/home' element={<Home/>}/>
+            <Route path='/user/history' element={<History/>}/>
           </Route>
           
         </Routes>

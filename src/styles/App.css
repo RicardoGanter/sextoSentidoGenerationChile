@@ -6,6 +6,16 @@ body{
 *{
     box-sizing: border-box;
 }
+h1{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 16px;
+}
+button{
+    border: none;
+}
 label, button{
     color: white;
 }
