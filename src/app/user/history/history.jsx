@@ -8,18 +8,18 @@ const History = () => {
         <div className={styles.contain}>
             <h1>Historial</h1> 
             <div className={styles.search}>
-                <img className={styles.searchIcon} src={search}/>
+                <img alt="deBuscarIcono" className={styles.searchIcon} src={search}/>
                 <input placeholder='Buscar' className={styles.inputSearch} />
             </div> 
             <div className={styles.containHistory}>
                 <div className={styles.filters}>
                     <div className={styles.filter} style={{"border-right": "2px solid rgba(255, 255, 255, 0.445)"}}>
                         <p>odenar por fecha</p>
-                        <img className={styles.arrowDownImage} src={arrowDown}/>
+                        <img alt="flechaAbajoIcono" className={styles.arrowDownImage} src={arrowDown}/>
                     </div>
                     <div className={styles.filter}> 
                         <p>odenar por fecha</p>
-                        <img className={styles.arrowDownImage} src={arrowDown}/>
+                        <img alt="flechaAbajoIcono" className={styles.arrowDownImage} src={arrowDown}/>
                     </div>
                 </div>
                 <div>
