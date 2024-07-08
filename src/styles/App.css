@@ -1,7 +1,7 @@
 body{ 
     margin: 0;
     padding: 0; 
-    background: #2B6643;
+    background: #246152;
 }
 *{
     box-sizing: border-box;
@@ -22,49 +22,5 @@ label, button{
 a{
     color: #f7f7f7;
 }
-.containLogin{
-    margin: 3rem auto;
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    background-color: #4463b1;
-    border-radius: 10px;
-    padding: 2rem 1rem;
-    box-shadow: 0 0px 10px 3px rgb(0, 0, 0);
-}
-/* Los Input Inicio */
-.containInput{
-    display: flex;
-    flex-direction: column; 
-} 
-.containInput input{
-    border-radius: 5px;
-    padding: .3rem; 
-    background-color: #dfdfdf;
-}
-.containInput label{
-    border-radius: 5px;
-    padding: .3rem;
-    margin: 0 1rem;
-}
-
-.containLinks{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin: 2rem 0;
-}
-
 
 /* Los Input Fin */
-.buttonEnter{
-    background-color: #3A6B4E; 
-    width: 100%;
-    padding: .7rem;
-    border-radius: 5px; 
-    border: none;
-    box-shadow: 0 0px 5px 1px rgba(0, 0, 0, 0.904);
-    font-size: 20px;
-}

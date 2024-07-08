@@ -1,0 +1,85 @@
+.contain {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+  }
+  
+  .containLogos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem;
+  }
+  .containLogos p{
+    font-size: 20px;
+  }
+  
+  .containLogin { 
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    border-radius: 10px;
+    padding: 2rem 1rem;   
+    justify-self: center; /* Centra horizontalmente el contenedor de login */
+  }
+  .containLogin h1{
+    margin-bottom: 5rem;
+  }
+/* Los Input Inicio */
+.containInput{
+    display: flex;
+    flex-direction: column; 
+} 
+.containInput input{ 
+    border-radius: 5px;
+    padding: .3rem; 
+    background-color: #dfdfdf;
+} 
+.containInput div{
+    display: flex;
+    align-items: center;
+}
+.iconInput{
+    position: absolute;
+    width: 20px; 
+    height: 20px; 
+    margin: 0 .5rem;
+} 
+.input{
+    text-indent: 50px;
+    width: 100%;
+}
+.containInput label{
+    border-radius: 5px;
+    padding: .3rem;
+    margin: 0 1rem;
+}
+.containLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+.buttonEnter{
+    background-color: #1A3839; 
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px; 
+    border: none;
+    stroke: black ;
+    font-size: 20px;
+}
+
+.enlaces{
+    text-decoration: none;
+}
+
+.copyrightText{
+    position: absolute;
+    font-size: 12px;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
