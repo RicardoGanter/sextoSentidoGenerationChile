@@ -56,7 +56,7 @@ const Login = ()=>{
                     <div className={styles.containLinks}>
                         <Link className={styles.enlaces} href=""> ¿Eres un profesional? Iniciar sesión</Link>
                         <Link className={styles.enlaces} href="k">¿Has olvidado tu contraseña?</Link>
-                        <Link className={styles.enlaces} href="k">¿Todavía no tienes una cuenta? Regístrate</Link>
+                        <Link className={styles.enlaces} to="/register">¿Todavía no tienes una cuenta? Regístrate</Link>
                     </div>
                         
                 </form> 

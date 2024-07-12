@@ -1,6 +1,7 @@
 .contain {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
+    height: 100vh;
   }
   
   .containLogos {
@@ -26,6 +27,19 @@
   .containLogin h1{
     margin-bottom: 5rem;
   }
+  .stepsLine{
+    width: 100%;
+    height: 10px;
+    background-color: #9C9C9C;
+    border-radius: 3px;
+  }
+  .stepsLine2{
+    width: 50%;
+    height: 10px;
+    background-color: #00C4CA;
+    border-radius: 3px;
+    transition: width  0.5s ease;
+  } 
 /* Los Input Inicio */
 .containInput{
     display: flex;
@@ -63,13 +77,14 @@
     margin: 2rem 0;
 }
 .buttonEnter{
-    background-color: #1A3839; 
+    background-color: #009AA9; 
     width: 100%;
     padding: .5rem;
     border-radius: 5px; 
     border: none;
     stroke: black ;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .enlaces{
@@ -83,3 +98,37 @@
     left: 50%;
     transform: translateX(-50%); 
 }
+
+
+@media (max-width: 900px) {
+    .contain {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .containLogos {
+        gap: 0;
+        margin-bottom: 3rem;
+    }
+    .containLogos p{
+        font-size: 16px;
+    }
+    .containLogos img:first-child {
+        display: none;
+    }
+    .containLogos img:nth-child(2) {
+        width: 200px;
+    }
+    .containInput input{  
+        padding: .7rem;  
+    } 
+    .buttonEnter{
+        margin-top: 2rem; 
+    }
+    .enlaces{
+        text-decoration: none;
+        font-size: 12px;
+    }
+  }
+     
